@@ -17,27 +17,42 @@ umi.use(signerIdentity(signer));
         // Follow this JSON structure
         // https://docs.metaplex.com/programs/token-metadata/changelog/v1.0#json-structure
 
-        // const image = ???
-        // const metadata = {
-        //     name: "?",
-        //     symbol: "?",
-        //     description: "?",
-        //     image: "?",
-        //     attributes: [
-        //         {trait_type: '?', value: '?'}
-        //     ],
-        //     properties: {
-        //         files: [
-        //             {
-        //                 type: "image/png",
-        //                 uri: "?"
-        //             },
-        //         ]
-        //     },
-        //     creators: []
-        // };
-        // const myUri = ???
-        // console.log("Your metadata URI: ", myUri);
+        const image = "https://devnet.irys.xyz/5iSmfi5UpWdn7uE6cqwcpPuKxCgS2Qa8gAVmNXjqRBpP";
+        const metadata = {
+            name: "Dean Mexican",
+            symbol: "DMEX",
+            description: "Dean Turbin3 Mexican Version",
+            image: image,
+            attributes: [
+                {
+                    trait_type: 'Job',
+                    value: 'Turbin3 Mr Olympia'
+                },
+                {
+                    trait_type: 'Nationality',
+                    value: 'Mexican as well LOL'
+                },
+                {
+                    trait_type: 'Beard',
+                    value: 'Good Moostache, andre is better'
+                },
+                {
+                    trait_type: 'Quality',
+                    value: 'Almost Better than Andre'
+                }
+            ],
+            properties: {
+                files: [
+                    {
+                        type: "image/png",
+                        uri: image
+                    },
+                ]
+            },
+            creators: [keypair.publicKey]
+        };
+        const myUri = await umi.uploader.uploadJson(metadata);
+        console.log("Your metadata URI: ", myUri);
     }
     catch(error) {
         console.log("Oops.. Something went wrong", error);
