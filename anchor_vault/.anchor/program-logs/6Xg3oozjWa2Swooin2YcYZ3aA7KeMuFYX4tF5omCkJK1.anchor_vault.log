@@ -1,0 +1,41 @@
+Streaming transaction logs mentioning 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1. Confirmed commitment
+Transaction executed in slot 4:
+  Signature: 5k4seM4x5Nz1VRBzbo4ZqwFZtDZUJgpQUguWbcwcxwfrUVR6uwBVxL5ryYgjJbPTKKydLSpmGmEY6z7EZs6znJVG
+  Status: Ok
+  Log Messages:
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 invoke [1]
+    Program log: Instruction: Initialize
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 consumed 9001 of 200000 compute units
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 success
+Transaction executed in slot 5:
+  Signature: 29DG4zPpQHrTHGvN7v6fgTMxbLBydQt9V894o7oKCdA8fUBDdxDFAiV4rxW29mRMHXCJka9awncSHyEvuF4CfQ4b
+  Status: Ok
+  Log Messages:
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 invoke [1]
+    Program log: Instruction: Deposit
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 consumed 6900 of 200000 compute units
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 success
+Transaction executed in slot 6:
+  Signature: 34e5vage2PnwFiFVRMbuabEnQUTMSWtucQGzKC9nZaXDoZDMVHuubi3ccVPCkb8RCow8Ttmi26gtkU8QdFs3XTHh
+  Status: Ok
+  Log Messages:
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 invoke [1]
+    Program log: Instruction: Withdraw
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 consumed 6955 of 200000 compute units
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 success
+Transaction executed in slot 7:
+  Signature: 54Y4cLEXYzaMYbzRyMG2gmdfTvJmwZqCTwCy32ZBTYcgXKyLtLTR9CS9xouvtgtBEAzW6ap3mMMHGMpVRenE8xmE
+  Status: Ok
+  Log Messages:
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 invoke [1]
+    Program log: Instruction: Close
+    Program 11111111111111111111111111111111 invoke [2]
+    Program 11111111111111111111111111111111 success
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 consumed 7308 of 200000 compute units
+    Program 6Xg3oozjWa2Swooin2YcYZ3aA7KeMuFYX4tF5omCkJK1 success
